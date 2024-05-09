@@ -32,7 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Using Stripe to create a new Business 
 - [Stripe website](https://stripe.com/en-mx?utm_campaign=BR_en_Search_Brand_Brand_EXA-15088005049&utm_medium=cpc&utm_source=google&ad_content=556495423092&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c&gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWYuu9EpmJERplayxTHa70lOKLK4S4VLEO3EsH03NE60iZs50TjPb24aArsdEALw_wcB)
 - Add products to yout Business and add the public and secret key to a file .env.local. This file must be on your the root of your NEXT's folder project.
-- Your .env.local file shoul look like this:
+- Your .env.local file should look like this:
   
 ```bash
 # Stripe
