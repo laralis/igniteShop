@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -20,11 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-roboto bg-gray-900 text-gray-100 ">
-          <Header />
-        <div className='flex flex-col items-start justify-center min-h-screen'>
+        <Header />
+        <div className="flex flex-col items-start justify-center min-h-screen">
           {children}
         </div>
       </body>
     </html>
   );
 }
+
