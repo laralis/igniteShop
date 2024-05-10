@@ -29,8 +29,13 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Using Stripe to create a new Business 
+- [Stripe website](https://stripe.com/en-mx?utm_campaign=BR_en_Search_Brand_Brand_EXA-15088005049&utm_medium=cpc&utm_source=google&ad_content=556495423092&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c&gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWYuu9EpmJERplayxTHa70lOKLK4S4VLEO3EsH03NE60iZs50TjPb24aArsdEALw_wcB)
+- Add products to yout Business and add the public and secret key to a file .env.local. This file must be on your the root of your NEXT's folder project.
+- Your .env.local file should look like this:
+  
+```bash
+# Stripe
+STRIPE_PUBLIC_KEY=pk_test_23PKASDMKSAOCVZV1EYI0ypRwUIP6pTwD2MC2RD1RWnEHoX3vYpg7jexKr4pAn0qAMSAK632DVASEfdsuddDJIPoq00zKfrfOvp
+STRIPE_SECRET_KEY=sk_test_237LDAF4VEADCKDE81VDSW417ygU0ieDqK0w9amrJvPIpfh8BbJ4JpW1FtPiBglZSAKska4FAc53AWca6DWa2QERai00H7C9IAB
+```
