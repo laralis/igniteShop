@@ -1,6 +1,5 @@
 import Carrossel from "@/components/Carrossel";
 import { stripe } from "@/lib/stripe";
-
 import { noSSR } from "next/dynamic";
 import Stripe from "stripe";
 
@@ -22,6 +21,7 @@ export default async function Home() {
   );
   return (
     <>
+   
       <Carrossel products={products} />
     </>
   );

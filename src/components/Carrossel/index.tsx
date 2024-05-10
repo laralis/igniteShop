@@ -23,11 +23,12 @@ export default function Carrossel({ products }: ProductsProps) {
     <section className="flex  w-container ml-auto keen-slider" ref={sliderRef}>
       {products.map((product) => {
         return (
-          <Link href={`/product/${product.id}`}>
-            <div
-              key={product.id}
-              className="group bg-gradient-to-b from-green-400 to-purple rounded-lg p-1 cursor-pointer relative flex items-center justify-center bg-footerBg overflow-hidden h-[660px]  keen-slider__slide"
-            >
+          <Link
+            href={`/product/${product.id}`}
+            prefetch={false}
+            key={product.id}
+          >
+            <div className="group bg-gradient-to-b from-green-400 to-purple rounded-lg p-1 cursor-pointer relative flex items-center justify-center bg-footerBg overflow-hidden h-[660px]  keen-slider__slide">
               <Image
                 src={product.imageUrl}
                 alt={""}
